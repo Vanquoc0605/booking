@@ -21,6 +21,15 @@ hr,
 p {
   margin: 0;
 }
+.choose {
+  white-space: nowrap;
+}
+
+.fa-magnifying-glass
+{
+  right: 10px;
+  top: 40%;
+}
 .left {
   background-color: rgb(182, 29, 123);
   .left-header {
@@ -56,8 +65,10 @@ p {
 }
 .hidden
 {
-  display: none;
+  display: none !important;
 }
+
+
 
 .btn_edit
 {
@@ -90,6 +101,12 @@ p {
 {
   color: rgb(230, 143, 203);
 }
+.card {
+  img {
+    width: 50%;
+    margin: auto;
+  }
+}
 /* laptop */
 @media screen and (min-width: 769px) {
   .admin {
@@ -98,7 +115,10 @@ p {
   {
     height: 100vh;
   }
-   
+   .right-main {
+      height:  calc(100vh - 70px);
+      overflow-y: auto;
+   }
   }
 }
 /* mobile */
@@ -117,6 +137,12 @@ p {
         right: 24px;
         transform: translate(50%, -50%);
       }
+      .content-mobile
+{
+  display: none;
+}
     }
   }
 }
+
+
