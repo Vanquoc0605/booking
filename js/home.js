@@ -22,9 +22,7 @@ document.querySelector(".button_back").addEventListener("click", () => {
 var listColor = document.querySelectorAll(".left li");
 var listOrder =document.querySelectorAll('.order');
 
-
-var item =localStorage.getItem('key')?localStorage.getItem('key'):0;
-
+var item =localStorage.getItem('key')? localStorage.getItem('key'):0;
 
 listColor[item].style.color = "red";
 listOrder[item].classList.remove('hidden');

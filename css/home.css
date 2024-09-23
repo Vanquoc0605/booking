@@ -28,7 +28,8 @@ p {
 .fa-magnifying-glass
 {
   right: 10px;
-  top: 40%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .left {
   background-color: rgb(182, 29, 123);
@@ -93,8 +94,6 @@ p {
   color: white;
   text-align: center;
   background-color: rgb(230, 143, 203);
-  margin-left: 12px;
-  margin: auto;
 }
 
 .card-title

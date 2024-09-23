@@ -1,5 +1,5 @@
 const urlTable = "http://localhost:3000/tables";
-const urlPayBill = "http://localhost:3000/pay_bill";
+const urlPayBill = "http://localhost:3000/foods";
 
 
 async function getAll(url, callback) {
